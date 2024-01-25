@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<header>
+    <html lang="en-US">
+    <h1>My Best Friend Chicken Time</h1>
+    <p class="author"> Megan Akamichi</p>
+</header>
+
+<main> 
+    <section class>"Intro">
+        <figure>
+            <img class="sectionImage"
+            src="/Users/leeakamichi/Desktop/Italy/Images/IMG_2079.jpg"
+            width="500"
+            alt="Chicken Time and my Beanie Babies"
+            <figcaption>Chicken Time and my Beanie Babies</figcaption>
+        </figure>
+        <p>There's a particular joy that fills my heart every time I come home to the soft purrs and gentle presence of my beloved ragdoll cat, Chicken Time. Named with a touch of whimsy and a dash of humor, this feline companion has become not just a pet but an integral part of my daily life, bringing immeasurable happiness and comfort. In the next paragraphs, I will attempt to convey the depth of my affection for Chicken Time and the unique bond we share.
+        </p>
+    </section>
+</main>
