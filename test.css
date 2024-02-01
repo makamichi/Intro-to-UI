@@ -1,0 +1,214 @@
+body {
+    color: hsl(210, 51%, 20%);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: light;
+  }
+  
+  .content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
+  
+  
+  /* Top navigation bar */
+  
+  .navbar {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-color: darkgray;
+    text-align: right;
+  }
+  
+  
+  /* Breadcrumb Menu */
+  
+  .breadcrumbs {
+    color: white;
+    font-style: italic;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .breadcrumbs li {
+    display: inline-block;
+  }
+  
+  .breadcrumbs li::after {
+    content: '>';
+    padding: 0 0.5em;
+  }
+  
+  .breadcrumbs li:last-child::after {
+    content:'';
+  }
+  
+  .breadcrumbs a {
+    color: white;
+    text-underline-offset: 3px;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 1.1em;
+    text-underline-offset: -0.9em;
+    text-decoration-skip-ink: none;
+  }
+  
+  
+  /* main navigation menu */
+  
+  .main_nav {
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .main_nav li {
+    display: inline-block;
+    margin: .5rem;
+  }
+  
+  .main_nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .main_nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+  }
+  
+  
+  
+  header {
+    text-align: center;
+    /*background-color: lightgray;*/
+    /*border: 5px solid black;*/
+  }
+  
+  
+  h1 {
+    /*Heading for the entire article*/
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .byline {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .author {
+    display: inline;
+  }
+  
+  .author-title {
+    display: inline;
+  }
+  
+  .byline .separator {
+    display: inline;
+  }
+  
+  main {
+  
+  }
+  
+  section {
+    clear: both;
+    margin-top: 60px;
+  }
+  
+  h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+  }
+  
+  figure {
+    float: right;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+  
+  }
+  
+  figcaption {
+    font-style: italic;
+  }
+  
+  .intro figure {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .intro p{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.3em;
+  }
+  
+  .tuscany figure {
+    float: right;
+    margin-left: 40px;
+  }
+  
+  .tuscany2 figure {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .venice figure {
+    float: right;
+    margin-left: 40px;
+  }
+  
+  .milan figure {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .cinqueterre figure {
+    float: right;
+    margin-left: 40px;
+  }
+  
+  .eatdrink figure {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .tips figure {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  ul {
+    font-style: italic;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: lightgray;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }

@@ -15,10 +15,23 @@ header {
     background-color: rgb(255, 204, 241);
     border: 5px solid rgb(235, 126, 144);
 }
+
+.author {
+    display: inline;
+  }
+  
+  .author-title {
+    display: inline;
+  }
+  
+  .byline .separator {
+    display: inline;
+  }
+
 h1 {
     /*Heading for the entire article*/
     font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     margin-top: 20px;
   }
@@ -29,7 +42,9 @@ h1 {
   }
   
   h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     font-size: 2rem;
   }
   
@@ -60,7 +75,29 @@ figure {
     /*margin-left: auto;*/
     /*margin-right: auto;*/
   }
-  
-  section {
+
+section {
     clear: both;
+    margin-top: 60px;
   }
+  
+  .intro figure {
+    float: left;
+    margin-left: 40px;
+  }
+  
+  .ragdollcats figure {
+    float: right;
+    margin-left: 40px;
+  }
+  
+  .Playful figure {
+    float: left;
+    margin-left: 40px;
+  }
+  
+  .Conclusion figure {
+    float: right;
+    margin-right: 40px;
+  }
+  
