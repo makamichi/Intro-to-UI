@@ -3,16 +3,95 @@ body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
+h1 {
+    color: rgb(72, 29, 151);
+}
+    
 
 .content-wrapper {
     margin-right: auto;
     margin-left: auto;
-    max-width: 960px;
+    max-width: 1100px;
 }
+
+/* Top navigation bar */
+
+.navbar {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-color: deeppink;
+    text-align: right;
+}
+
+/* Breadcrumb Menu */
+
+.breadcrumbs {
+    color: blue;
+    font-style: italic;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+  }
+  
+  .breadcrumbs li::after {
+    content: '>';
+    padding: 0 0.5em;
+  }
+  
+  .breadcrumbs li:last-child::after {
+    content:'';
+  }
+  
+  .breadcrumbs a {
+    color: white;
+    text-underline-offset: 3px;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 1.1em;
+    text-underline-offset: -0.9em;
+    text-decoration-skip-ink: none;
+  }
+  
+  
+  /* main navigation menu */
+  
+  .main_nav {
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .main_nav li {
+    display: inline-block;
+    margin: .5rem;
+  }
+  
+  .main_nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .main_nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+  }
 
 header {
     text-align: center;
-    background-color: rgb(255, 204, 241);
+    background-color: rgb(255, 203, 241);
     border: 5px solid rgb(235, 126, 144);
 }
 
@@ -30,6 +109,7 @@ header {
 
 h1 {
     /*Heading for the entire article*/
+    background-color: rgb(255, 243, 254);
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -37,6 +117,7 @@ h1 {
   }
   
   .byline {
+    background-color: rgb(186, 186, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
   }
